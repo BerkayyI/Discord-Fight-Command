@@ -51,7 +51,7 @@ async def fight(ctx, member : discord.Member = None):
             else:
                 pass
             await ctx.send(f"{member1} hit a powerful punch {dmg} dmg to {member2} and now he has {player2} HP left.")
-            await ctx.send(f"{member2}'s turn pick **| punch / defansgej |**")
+            await ctx.send(f"{member2}'s turn pick **| punch / defence |**")
         
 
         if(player_1.content) == "defence":
@@ -79,7 +79,7 @@ async def fight(ctx, member : discord.Member = None):
             else:
                 pass
             await ctx.send(f"{member2} fucking hit a powerful left punch with {dmg2} dmg to {member1} and now he has {player1} HP left.")
-            await ctx.send(f"{member1}'s turn pick **| punch / defansgej |**")
+            await ctx.send(f"{member1}'s turn pick **| punch / defence |**")
         
         if(player_2.content) == "defence":
             armor2 = random.randint(1,20)
@@ -90,6 +90,6 @@ async def fight(ctx, member : discord.Member = None):
             else:
                 pass
             await ctx.send(f"{member2} used 'defansgej' and got {armor2} armor!")
-            await ctx.send(f"{member1}'s turn pick **| punch / defansgej |**")
+            await ctx.send(f"{member1}'s turn pick **| punch / defence |**")
 
 client.run("your token")
